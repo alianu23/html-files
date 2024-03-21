@@ -1,0 +1,40 @@
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 50px;
+}
+.circle1 {
+    background-color: aqua;
+    animation-name: circle1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.circle2 {
+    background-color: brown;
+    animation-name: circle2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle1 {
+0% {
+    transform: translate(0px);
+}
+50% {
+    transform: translate(500px)
+}
+100% {
+    transform: translate(700px);
+}
+}
+@keyframes circle2 {
+    0% {
+        transform: translate(0px);
+    }
+    50% {
+        transform: translate(400px)
+    }
+    100% {
+        transform: translate(700px);
+    }
+    }
